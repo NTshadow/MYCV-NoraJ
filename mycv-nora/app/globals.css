@@ -2,7 +2,7 @@
 
 
 :root {
-  --background: #BAD9A2;
+  --background: #bad9a27e;
   --foreground: #104F55;
 }
 
@@ -25,4 +25,9 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+
+html{
+  scroll-behavior: smooth;
 }
