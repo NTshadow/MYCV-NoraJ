@@ -37,7 +37,7 @@ export default function Scroll() {
   return (
     <svg
       aria-hidden="true"
-      viewBox="0 0 40 800"
+      viewBox="0 -12 40 824"
       preserveAspectRatio="none"
       className="pointer-events-none fixed left-3 top-0 h-screen w-10 md:block"
     >

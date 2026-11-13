@@ -21,7 +21,7 @@ const code: Skill[] = [
 
 const tools: Skill[] = [
     { file: "icons8-figma.svg", label: "Figma" },
-    { file: "icons8-photoshop.svg", label: "Photoshop" },
+    { file: "icons8-adobe-photoshop.svg", label: "Photoshop" },
     { file: "icons8-wordpress.svg", label: "WordPress" },
     { file: "icons8-intelij.svg", label: "IntelliJ" },
     { file: "icons8-vscode.svg", label: "Visual Studio Code" },
@@ -58,7 +58,7 @@ export default function Skills() {
     <section id="ferdigheter" className="scroll-mt-24 py-20">
       <h2 className="font-heading text-5xl">Ferdigheter</h2>
       <span className="mt-3 block h-2 w-24 rounded-full bg-lime" />
-      <Grid title="Kjente kodespråk" items={code} />
+      <Grid title="mine kodespråk" items={code} />
       <Grid title="Mine verktøy " items={tools} />
       <div className="mt-10">
         <h3 className="mb-4 font-heading text-2xl"> Generell kompetanse</h3>
