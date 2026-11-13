@@ -1,8 +1,7 @@
 const links = [
   { label: "Om meg", href: "#om-meg", color: "bg-orange" },
-  { label: "Utdanning", href: "#utdanning", color: "bg-rose" },
-  { label: "Erfaring", href: "#erfaring", color: "bg-teal" },
   { label: "Ferdigheter", href: "#ferdigheter", color: "bg-lime" },
+  { label: "Ta kontakt!", href: "#ta-kontakt", color: "bg-teal" }
 ];
 
 export default function Header() {

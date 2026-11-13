@@ -39,13 +39,13 @@ export default function Scroll() {
       aria-hidden="true"
       viewBox="0 0 40 800"
       preserveAspectRatio="none"
-      className="pointer-events-none fixed left-3 top-0 hidden h-screen w-10 md:block"
+      className="pointer-events-none fixed left-3 top-0 h-screen w-10 md:block"
     >
       {/* Grå bane */}
       <path d={D} fill="none" stroke="white" strokeOpacity="0.7" strokeWidth="3" strokeLinecap="round" />
       {/* Linjen som tegnes mens du scroller */}
       <path ref={path} d={D} fill="none" className="stroke-foreground" strokeWidth="3" strokeLinecap="round" />
-      <circle ref={dot} r="7" cx="20" cy="0" className="fill-orange" />
+      <circle ref={dot} r="7" cx="20" cy="0" className="fill-orange"  />
     </svg>
   );
 }

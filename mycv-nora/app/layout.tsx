@@ -19,7 +19,7 @@ const literata = Literata({
 
 export const metadata: Metadata = {
   title: "Nora Jellum",
-  description: "CV and portfolio for Nora Jellum, frontend and mobile developer",
+  description: "Portfolio for Nora Jellum, frontend and mobile developer",
 };
 
 export default function RootLayout({

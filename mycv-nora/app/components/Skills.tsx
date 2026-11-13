@@ -10,13 +10,22 @@ const code: Skill[] = [
   { file: "icons8-java.svg", label: "Java" },
   { file: "icons8-kotlin.svg", label: "Kotlin" },
   { file: "icons8-swift.svg", label: "Swift" },
+  { file: "icons8-html-5.svg", label: "HTML5" },
+  { file: "icons8-css3.svg", label: "CSS" },
+  { file: "icons8-javascript.svg", label: "JavaScript" },
+  { file: "icons8-react.svg", label: "React" },
+  { file: "icons8-sql.svg", label: "SQL" },
+  { file: "icons8-linux.svg", label: "Linux" },
   // { file: "navn-på-filen.svg", label: "Tekst under logoen" },
 ];
 
 const tools: Skill[] = [
     { file: "icons8-figma.svg", label: "Figma" },
     { file: "icons8-photoshop.svg", label: "Photoshop" },
-
+    { file: "icons8-wordpress.svg", label: "WordPress" },
+    { file: "icons8-intelij.svg", label: "IntelliJ" },
+    { file: "icons8-vscode.svg", label: "Visual Studio Code" },
+    { file: "icons8-Xcode.svg", label: "Xcode" },
 ];
 
 const competence = [
@@ -49,10 +58,10 @@ export default function Skills() {
     <section id="ferdigheter" className="scroll-mt-24 py-20">
       <h2 className="font-heading text-5xl">Ferdigheter</h2>
       <span className="mt-3 block h-2 w-24 rounded-full bg-lime" />
-      <Grid title="Kode" items={code} />
-      <Grid title="Digitale verktøy" items={tools} />
+      <Grid title="Kjente kodespråk" items={code} />
+      <Grid title="Mine verktøy " items={tools} />
       <div className="mt-10">
-        <h3 className="mb-4 font-heading text-2xl">Kompetanse</h3>
+        <h3 className="mb-4 font-heading text-2xl"> Generell kompetanse</h3>
         <ul className="flex flex-wrap gap-3">
           {competence.map((c) => (
             <li key={c} className="rounded-full bg-teal px-5 py-2 text-sm text-black">{c}</li>
